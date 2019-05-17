@@ -4,11 +4,54 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 
 <body>
+  <div id="wrapper">
+  <div id="main">
+      <nav>
+          <div id="container">
+              <h1 id="title">Your Name</h1>
+              <ul>                    
+                  <li><a href="#about">About</a></li>
+                  <li id="portfolio"><a href="#potfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+  </div> 
     
+  <section id="contents">
+    <article id="about">
+        <h1 id="heading">Portfolio</h1>
+        <br><br>
+        <hr>
+        <div class="article">
+      
+        
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="fname" name="name" placeholder="John Smith">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="Message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+                
+        </div>
+    </article>
+</section>
+
+<footer>
+    <div id="footer">Copyright &copy;</div>
+</footer>
+</div>
+  
 </body>
 
 </html>
