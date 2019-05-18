@@ -128,7 +128,6 @@ hr {
     border-top: 2px solid lightgray; 
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 input[type=text], select, textarea {
@@ -142,7 +141,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
@@ -150,20 +149,37 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #4aaaa5;
   }
 
-  .text h2 {
-    color: white;
-    margin: 0;
-    padding: 20px;
+.imagecontainer {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: inline-block;    
+}
+
+.image1 {
     display: block;
-    background-color: #4aaaa5;
-  }
 
-  .image1 {
-    background: url('..images/250x200.png');;
-    margin: 10px 0 0 10px;
-    float: left;
-  }
+    width: 300px;
+    height: 250px;
+
+}
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: #4aaaa5;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 2.5;;
+}
+
+  
